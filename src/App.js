@@ -381,7 +381,7 @@ const MainScreen = ({ setCurrentScreen }) => (
       <div className="text-center mb-8">
         <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
           <img
-            src="/logo1.png"
+            src={process.env.PUBLIC_URL + "/logo1.png"}
             alt="FirstHelp Logo"
             className="w-24 h-24 object-contain"
           />
